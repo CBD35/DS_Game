@@ -1,8 +1,8 @@
-# Crimson Sands — Game Design Document
+# Dark Sun: Shattered Lands — Remake GDD
 ## 00: Overview & Vision
 
-**Version:** 0.1 (Pre-Production)
-**Last Updated:** 2026-04-19
+**Version:** 0.2
+**Last Updated:** 2026-04-20
 **Document Owner:** Design Lead
 
 ---
@@ -10,68 +10,115 @@
 ## Table of Contents
 1. [Elevator Pitch](#elevator-pitch)
 2. [Design Pillars](#design-pillars)
-3. [Tone & Aesthetic](#tone--aesthetic)
-4. [Comparable Titles](#comparable-titles)
-5. [Scope & Target Audience](#scope--target-audience)
-6. [High-Level Feature List](#high-level-feature-list)
-7. [Out of Scope](#out-of-scope)
+3. [What We Are Remaking](#what-we-are-remaking)
+4. [What We Are Adding](#what-we-are-adding)
+5. [What We Are Not Changing](#what-we-are-not-changing)
+6. [Tone & Aesthetic](#tone--aesthetic)
+7. [Comparable Titles](#comparable-titles)
+8. [Scope & Target Audience](#scope--target-audience)
 
 ---
 
 ## Elevator Pitch
 
-**Crimson Sands** is a turn-based tactical RPG set in Kharak'thal — a dying desert world where the sun bleeds red, metal is rarer than water, and magic devours the earth itself. Players begin as gladiatorial slaves, escape into a brutal wilderness of psychic predators and scheming city-states, and uncover a conspiracy that could hasten the world's final death.
+**Dark Sun: Shattered Lands (Remake)** is a faithful modernization of SSI's 1993 classic CRPG set on the dying world of Athas. Players create a party of gladiatorial slaves, escape into the brutal Tablelands, and unravel a conspiracy that threatens what little life remains on a world already at the edge of extinction.
 
-It is a spiritual successor to *Dark Sun: Shattered Lands* (SSI, 1993), rebuilt for a modern audience with the tactical depth of *Solasta*, the narrative ambition of *Baldur's Gate 3*, and the uncompromising survival pressure of *Darkest Dungeon*. Every decision costs something. The world remembers what you take from it.
+The original game is rebuilt from the ground up with modern visuals, expanded story content, a deepened combat system, and quality-of-life improvements — while preserving every story beat, character, location, and mechanical identity that made the original essential.
 
-**Tagline:** *"Everything here wants to kill you. The world is next."*
+**Tagline:** *"The world is dying. You still have to live in it."*
 
 ---
 
 ## Design Pillars
 
-These five pillars govern all design decisions. When in conflict, earlier pillars take precedence.
+### Pillar 1: Faithful First
+Every major story beat, NPC, location, and faction from the original Shattered Lands is present and recognizable. Players who completed the original in 1993 should feel at home within minutes. New content is additive, never replacive.
 
-### Pillar 1: Consequence is Physical
-Every system must produce visible, tangible consequences in the world. A wizard who defiles leaves scorched earth. A party that drinks the last water at an oasis leaves nothing for the next traveler — and may meet that traveler later, dying. Resources are finite. Choices persist.
+### Pillar 2: Athas is the Setting — No Substitutions
+The world is Athas. The city-states, the Sorcerer-Kings, the Dragon, the Veiled Alliance, the elemental clerics — all are from the established Dark Sun canon (AD&D 2nd Edition). No invented replacements for canonical elements.
 
-### Pillar 2: Brutality with Agency
-Kharak'thal is merciless, but players are never helpless. Difficulty comes from hard choices, incomplete information, and resource scarcity — not arbitrary punishment. A fight you cannot win can still be survived, fled, or bypassed. Intelligence and preparation should always matter.
+### Pillar 3: Modernize the Interface, Not the Tone
+Controls, UI, and accessibility are brought to 2020s standards. The oppressive, uncompromising tone of the original is never softened. Slavery, ecological horror, and moral ambiguity remain intact.
 
-### Pillar 3: Tactical Depth Without Bloat
-Combat must reward positioning, resource management, and ability synergy. Every class, race, and psionic discipline should offer distinct tactical options. But complexity must be legible: new players can function with basic tactics; veterans can squeeze every edge from the system.
+### Pillar 4: Deepen Without Bloating
+New systems (expanded psionics, survival layer, faction reputation) add depth without contradicting or overshadowing the original's mechanics. A player can ignore extended systems and still complete the game.
 
-### Pillar 4: World as Character
-Kharak'thal is not a backdrop — it is a dying organism the player is embedded in. The survival layer, the ecology, the political factions, and the magic system are all expressions of the same core truth: this world is being consumed, and player choices either slow or accelerate that process.
+### Pillar 5: Consequence is Physical
+Athas remembers what you take from it. A Defiler wizard leaves ash rings. An oasis drained of water stays dry. Choices persist in the world state.
 
-### Pillar 5: Authentic Darkness
-No redemption arcs handed out for free. The setting is post-apocalyptic fantasy at its most unromantic: slavery is the economic foundation, genocide is historical fact, and the most powerful beings in the world maintain that power through sustained atrocity. The game does not apologize for this, but it gives players the agency to push back — at real cost.
+---
+
+## What We Are Remaking
+
+Dark Sun: Shattered Lands (SSI, 1993) was a turn-based tactical RPG based on TSR's Dark Sun campaign setting for AD&D 2nd Edition. It featured:
+
+- Party creation with up to 4 characters from 7 races and 8 classes
+- Turn-based combat on isometric tile maps
+- A narrative beginning with gladiatorial slavery and escape
+- Travel across the Tablelands between city-states
+- Defiler/Preserver wizard split with world-state consequences
+- Psionic wild talents and full Psionicist class
+- Elemental cleric magic (no divine gods)
+- Resource scarcity: water, food, encumbrance
+
+Every one of these systems is preserved and expanded, not replaced.
+
+---
+
+## What We Are Adding
+
+| Category | Original | Remake Addition |
+|---|---|---|
+| Story | 3-act linear narrative | Expanded Act 2 with new city-state content; branching faction outcomes |
+| Companions | Generic party slots | Named companions with backstories, personal quests, and dialogue |
+| Psionics | Wild talents + Psionicist class | Full psionic discipline trees; psionic combat overlay |
+| Magic | Defiler/Preserver toggle | Visible world-state defilement map; Preserver rituals; long-term consequences |
+| Survival | Basic rations/water | Full heat exposure, camp system, wilderness travel resource burn |
+| Factions | Veiled Alliance present | Full reputation meters for 5 factions; faction-exclusive quests |
+| Combat | Tile-based turn-based | Action economy (action/move/reaction); environmental interaction; morale |
+| Races | 7 playable | Same 7 + Half-Elf restored to full parity; optional new race (Ssurrai) as DLC/bonus |
+| UI | Keyboard-driven menus | Full mouse + controller support; contextual tooltips; combat log |
+| Audio | MIDI soundtrack | Fully orchestrated score with percussion-dominant Middle Eastern/North African instrumentation |
+
+---
+
+## What We Are Not Changing
+
+- **The story's opening:** You are a slave. You are in an arena. You escape. This is inviolate.
+- **The Sorcerer-Kings:** Kalak, Hamanu, Nibenay, Tectuktitlay, Abalach-Re, Lalali-Puy, Andropinis — all present, all canonical.
+- **The Dragon:** The Dragon of Tyr is the ultimate threat and is handled with the same weight as the original.
+- **No metal rule:** Bone, obsidian, chitin, stone. No iron or steel in player hands except as extreme loot.
+- **No gods:** Elemental clerics only. No divine intervention, no resurrection magic, no chosen ones.
+- **Defiler consequences:** A Defiler who casts in a city is visible to everyone nearby. There is no hiding it.
+- **AD&D 2e rule DNA:** Attributes (STR/DEX/CON/INT/WIS/CHA), THAC0-derived attack math (modernized to d20 but with the same probabilities), saving throws, and proficiency system retain their original character.
 
 ---
 
 ## Tone & Aesthetic
 
 ### Tone
-- **Genre:** Grim dark / Sword & Sorcery / Post-Apocalyptic Fantasy
-- **Emotional register:** Tense, oppressive, occasionally cathartic. Not nihilistic — there is meaning in resistance even when victory is uncertain.
-- **Violence:** Present, impactful, never gratuitous. Death matters. Injury matters.
-- **Humor:** Rare and dark. Gallows wit from characters who have survived too much to be shocked anymore.
+- Grim dark, unromantic, survival-focused
+- No alignment system — moral choices are situational and costly
+- Violence is consequential; it is never spectacle
+- Rare gallows humor from characters who have survived too much
 
 ### Visual Style
-- Isometric perspective, hand-painted textures with a desaturated warm palette: ochres, siennas, bone whites, and the deep crimson of the dying sun.
-- UI inspired by bone, obsidian, and stretched hide — no steel or chrome anywhere.
-- Particle effects for psionic abilities: shimmer and heat-distortion rather than flashy lights.
-- Defiling magic: visible ashen rings expanding from the caster, flora wilting in real time.
+- Isometric perspective, hand-painted textures
+- Palette: ochres, bone white, sienna, the deep red of the dying sun
+- UI elements made of bone, hide, and obsidian — no metal anywhere in the interface
+- Defiler magic: expanding ash rings, flora visibly wilting in real time
+- Psionic effects: heat shimmer, geometric distortions, no flashy lights
 
 ### Audio
-- Percussion-heavy soundtrack with Middle Eastern, North African, and Central Asian instrumentation. No orchestral swell — intimate and harsh.
-- Ambient sound design prioritizing wind, sand, insect clicks (Thri-Kreen), and distant roars.
-- Voice acting for key NPCs only. Player party uses grunts, effort sounds, and short contextual barks.
+- Percussion-heavy score; Middle Eastern and Central Asian instrumentation
+- No orchestral swell
+- Voice acting for named NPCs; party uses short combat barks only
+- Ambient: wind, sand, insect clicks, distant predator roars
 
-### Reference Points (Aesthetic)
-- Paintings: Frank Frazetta desert pieces, Brom original Dark Sun illustrations
-- Films: Mad Max: Fury Road, Conan the Barbarian (1982), Lawrence of Arabia
-- Games: Dark Sun: Shattered Lands, Planescape: Torment, Darkest Dungeon
+### Reference Points
+- Visual: Brom's original Dark Sun illustrations, Frazetta desert paintings
+- Games: Baldur's Gate 3 (narrative depth), Solasta (combat fidelity), Darkest Dungeon (attrition tone)
+- Film: Mad Max: Fury Road, Conan the Barbarian (1982)
 
 ---
 
@@ -79,91 +126,33 @@ No redemption arcs handed out for free. The setting is post-apocalyptic fantasy 
 
 | Title | What We Share | What We Do Differently |
 |---|---|---|
-| Dark Sun: Shattered Lands (1993) | Setting tone, tactical combat, resource scarcity | Modern UI/UX, expanded psionic system, full survival layer |
-| Baldur's Gate 3 | Party-based tactical RPG, D&D-derived rules, reactive world | Isometric only, harder survival, no gods or divine magic |
-| Solasta: Crown of the Magister | Turn-based combat depth, environmental interaction | Far darker tone, survival mechanics, original rule system |
-| Darkest Dungeon | Attrition-based resource management, morale system | Full tactical CRPG scope, open world, narrative complexity |
-| Pathfinder: Wrath of the Righteous | Deep class/build system, long-form narrative | Single world, no mythic power, survival-first design |
-| Divinity: Original Sin 2 | Environmental combat, origin characters | No elemental spell combos gimmick, grittier tone, scarcity-focused |
+| Dark Sun: Shattered Lands (1993) | Everything | Modern engine, expanded content, QoL |
+| Baldur's Gate 3 | Party-based tactical RPG, reactive world | Harder survival, no gods, original setting |
+| Solasta: Crown of the Magister | Turn-based depth, D&D-derived rules | Far darker tone, Athas setting, survival layer |
+| Darkest Dungeon | Attrition resources, morale | Full CRPG scope, open narrative |
 
 ---
 
 ## Scope & Target Audience
 
 ### Target Audience
-- **Primary:** CRPG enthusiasts aged 25–45 with nostalgia for or knowledge of late-era SSI titles, Planescape, and Baldur's Gate.
-- **Secondary:** Tactical RPG players (XCOM, Into the Breach, Solasta) drawn to deeper narrative.
-- **Tertiary:** Dark Sun tabletop players wanting a faithful video game adaptation of the setting.
+- **Primary:** CRPG fans 25–45 with nostalgia for SSI-era titles and the Dark Sun setting
+- **Secondary:** Tactical RPG players drawn to deeper narrative (XCOM, Solasta)
+- **Tertiary:** Dark Sun tabletop players wanting a canonical video game adaptation
 
 ### Platform Targets
-- **PC (Windows/Linux/macOS):** Primary — all development, QA, and optimization targets.
-- **Steam Deck:** Verified target. UI must support controller input at 1280x800 resolution.
-- **Console (PS5/Xbox Series X):** Stretch goal, post-launch port.
-
-### Team Size Assumption
-Small-to-mid indie studio: 15–25 people. GDD is scoped for a 3–4 year production cycle.
+- **PC (Windows/Linux/macOS):** Primary
+- **Steam Deck:** Verified target
+- **Console (PS5/Xbox Series X):** Post-launch stretch goal
 
 ### Scope Summary
 
 | Category | Target |
 |---|---|
-| Campaign Length | 40–60 hours (main story + side content) |
-| Playable Races | 7 (6 core + 1 original: the Ssurrai) |
-| Character Classes | 8 |
-| Unique Maps/Areas | 60–80 handcrafted |
-| Major Factions | 5 (+ several minor) |
-| Acts | 3 |
-| Major Ending Variants | 4 with epilogue slides |
-| Languages at Launch | English; French, German, Spanish planned |
-
----
-
-## High-Level Feature List
-
-### Core Features (Must Ship)
-- Turn-based tactical combat on tile-based isometric maps
-- Full party creation (up to 4 player-controlled characters)
-- 8 character classes with distinct mechanical identities
-- 7 playable races with meaningful stat and ability differences
-- Psionic system (parallel to but distinct from arcane magic)
-- Defiler/Preserver moral split in wizard magic with world-state consequences
-- Survival layer: water, food, heat exposure, encumbrance
-- 3-act narrative with branching faction allegiances
-- Reactive world: resource depletion, political consequences, reputation tracking
-- Arena/gladiatorial combat mode with unique rules
-- 5 major factions with relationship meters and distinct quest lines
-
-### Secondary Features (High Priority)
-- Companion characters with full dialogue trees and personal quests
-- Procedurally generated random encounters in wilderness travel
-- Crafting system using bone, obsidian, and chitin — no metal
-- New Game+ mode with escalating difficulty modifiers
-- Bestiary that populates as enemies are encountered or studied
-
-### Stretch Features (Post-Launch or If Schedule Allows)
-- Modding SDK exposing Godot 4 project structure
-- Additional playable origin stories (2–3 pre-written backstories)
-- Multiplayer co-op for tactical combat (narrative remains single-player)
-
----
-
-## Out of Scope
-
-The following are explicitly excluded from Crimson Sands v1.0:
-
-- **Real-time or real-time-with-pause combat.** This is a turn-based game, always.
-- **3D world exploration.** Movement between areas is map-based with survival tracking. Only combat encounters and town scenes use isometric rendering.
-- **Gods or divine magic.** Kharak'thal has no gods. Cleric magic is entirely elemental.
-- **Metal equipment.** If a piece of content requires ferrous weapons or armor, it does not belong.
-- **Multiplayer narrative modes.** Co-op, if implemented, is combat-only and post-launch.
-- **Procedurally generated story content.** All narrative content is handcrafted.
-- **Alignment system.** Replaced entirely by the Reputation/Infamy system (see 07_progression.md).
-- **Open-world free roam.** World travel is node-based with survival resource tracking between nodes.
-
----
-
-## Project Philosophy Note
-
-Dark Sun: Shattered Lands succeeded because it committed to its setting without apology. It did not soften the slavery, explain away the ecological horror, or give players a chosen-one escape hatch from the misery. Crimson Sands must honor that commitment while adding the systemic depth, narrative craft, and interface legibility that modern players expect.
-
-The goal is not nostalgia. The goal is to build the game that Dark Sun always deserved.
+| Campaign Length | 40–60 hours |
+| Playable Races | 7 canonical + 1 optional (Ssurrai) |
+| Character Classes | 8 (faithful to original) |
+| Acts | 3 (matching original structure + expanded Act 2) |
+| Major Factions | 5 |
+| Ending Variants | 4 with epilogue slides |
+| Launch Languages | English; French, German, Spanish planned |
