@@ -1,0 +1,7 @@
+id,name,race,class,join_chapter,join_location_id,join_conditions,personal_quest,arc_chapters,layer,description,source_page,notes
+gareth,Gareth (Selucus),half_giant,gladiator,1,slave_pens,scar_or_merzol_allied,what_does_freedom_mean,1-8,O,Half-giant gladiator. Tectuktitlay's favorite. Broke a templar's neck. Seeks wisdom not vengeance.,M-3,Manual name Gareth — verify in-game name
+saria,Saria,half_elf,thief_preserver,1,slave_pens,saved_from_pens,relationship_with_power,1-8,O,Half-elf thief/preserver. Killed templar at auction with magic.,M-3,Manual name Saria — Sadira equivalent
+tarim,Tarim,thri_kreen,ranger,1,slave_pens,saved_from_pens,wasteland_changing,1-8,O,Thri-kreen female hunter trapped by templar.,M-3,
+player_character,Player Character,custom,custom,1,arena,custom_creation,custom,1-8,N,Custom-created fifth party member.,NEW,Race and class shape dialogue and perception
+korval_dust,Korval Dust,human,preserver,6,shattered_spire,reach_freelands,ancient_purpose,6-8,N,Ancient preserver. Former advisor to a Sorcerer-King.,NEW,Watcher in Crowd from Chapter 1
+sela,Sela,human,defiler_preserver,6,shattered_spire,reach_spire,impossible_conversion,6-8,N,Former defiler attempting impossible conversion to preserver.,NEW,Test case for new story's central question

@@ -1,0 +1,61 @@
+id,type,scope,description,set_in_chapter,affects_chapter,affects_scenes,notes
+arena_visits,integer,global,Number of Arena fights completed,1,1;6,arena_*;scar_offer;merzol_offer;voice_first_contact,Drives Scar/Merzol unlock + new psionic flash
+arena_first_visit,boolean,arena,Party has entered Arena for first time,1,1,arena_intro,
+arena_escaped,boolean,arena,Party has escaped Arena,1,1;2,slave_pens_arrive,
+semyon_recruited,boolean,arena,Semyon rescued and joined Veiled Alliance,1,1;5;6,veiled_alliance_*,
+watcher_seen,boolean,arena,Watcher in nobles' box noticed,1,6,korval_reveal,New: Chapter 6 callback
+voice_first_contact,boolean,arena,First psionic flash from Voice,1,6;7,spire_reveal,New
+pens_entered,boolean,slave_pens,Party in Slave Pens,2,2,pens_intro,
+pens_escaped,boolean,slave_pens,Party escaped via any route,2,2;3,sewers_arrive_or_fields_arrive,
+scar_allied,boolean,slave_pens,Scar agreed to escape plan,2,2;5,arena_west_exit;final_battle,
+merzol_allied,boolean,slave_pens,Merzol agreed to escape plan,2,2;5,merzol_path;final_battle,Mutually exclusive with scar_allied
+trusted_mirlon,boolean,slave_pens,Party trusted Mirlon's offer,2,2,mirlon_ambush,Trap if true
+pehtucl_killed,boolean,slave_pens,Templar Pehtucl defeated,2,2,pehtucl_dead,Drops Bloodwrath +1
+secret_room_unlocked,boolean,slave_pens,Hidden room with arrows+3 found,2,2,secret_loot,
+sewer_grate_route,boolean,slave_pens,Escape via sewer grate (not Arena),2,2;3,sewer_arrive,
+sewers_entered,boolean,sewers,Party in sewers,3,3,sewers_intro,
+sewers_cleared,boolean,sewers,Mikquetzl defeated and Tari resolved,3,3;4,tunnels_arrive,
+chiefs_daughter_rescued,boolean,sewers,High Warren Chief's daughter saved,3,3,helm_reward,Grants Helm of Contemplation
+mikquetzl_killed,boolean,sewers,Mikquetzl defeated,3,3,sewers_clear,
+elders_visited,boolean,sewers,Elders council met,3,3,staff_acquired,
+staff_of_parting_acquired,boolean,sewers,Staff of Parting in inventory,3,3;4,collection_pond_drain,
+collection_pond_drained,boolean,sewers,Pond drained — tunnels accessible,3,4,dagolar_tunnels_open,
+dagolar_tunnels_entered,boolean,dagolar_tunnels,Party in Dagolar's Tunnels,4,4,dagolar_intro,
+dagolar_killed,boolean,dagolar_tunnels,Dagolar defeated,4,4;6;7,dagolar_dead;voice_resonance_increased,
+keldar_killed,boolean,dagolar_tunnels,Keldar defeated (one shot prevents teleport),4,4,book_of_names_acquired,
+goburnix_freed,boolean,dagolar_tunnels,Goburnix the zombie freed,4,4,disguise_exposed,
+fields_entered,boolean,fields,Party in open desert,5,5,fields_intro,
+white_sands_entered,boolean,white_sands,Party in White Sands,5,5,final_battles_setup,
+final_battle_1,boolean,white_sands,Drajian wave 1 defeated,5,5,white_sands_battle_2,
+final_battle_2,boolean,white_sands,Drajian wave 2 defeated,5,5,white_sands_battle_3,
+final_battle_3,boolean,white_sands,Kraxis defeated,5,5;6,epilogue;ch6_freelands_open,
+kraxis_killed,boolean,white_sands,Kraxis dead,5,5,epilogue_text,
+teaquetzl_visited,boolean,teaquetzl_village,Party in Teaquetzl,5,5,village_council,
+teaquetzl_allied,boolean,teaquetzl_village,Teaquetzl will fight in final battle,5,5,final_battle_strength,
+cedrilte_visited,boolean,cedrilte_village,Party in Cedrilte,5,5,cedrilte_intro,
+cedrilte_allied,boolean,cedrilte_village,Cedrilte will fight,5,5,final_battle_strength,
+gedron_visited,boolean,gedron_village,Party in Gedron,5,5,wyrmias_intro,
+gedron_allied,boolean,gedron_village,Gedron will fight,5,5,final_battle_strength,
+wyrmias_resolved,boolean,gedron_village,Wyrmias dealt with peacefully or in duel,5,5,gedron_freed,
+wyrmias_killed,boolean,gedron_village,Wyrmias defeated in duel,5,5,gedron_freed,
+gladiators_freed,boolean,silt_sea_summoning,Captured gladiators rescued from Arant,5,5,village_alliance_strength,
+arant_killed,boolean,silt_sea_summoning,Arant defeated,5,5,gladiators_free,
+kalinin_rescued,boolean,wagon_train,Kalinin rescued from magera,5,5,kalinin_alliance,
+kalinin_allied,boolean,wagon_train,Kalinin fights with Teaquetzl,5,5,final_battle_strength,
+genie_summoned,boolean,palace_ruins,Genie released from bottle,5,5;6,genie_wishes,
+genie_wish_help,boolean,palace_ruins,Wish for help vs Draj used,5,5,shadow_army_arrives,Grants Quicksilver Glove
+genie_wish_wealth,boolean,palace_ruins,Wish for wealth used,5,5,wealth_acquired,
+genie_wish_duplicate,boolean,palace_ruins,Wish for item duplication used,5,5,item_duplicated,
+genie_warning_received,boolean,palace_ruins,Genie's cryptic warning heard,5,6,korval_dialogue,New: Chapter 6 hook
+cragg_killed,boolean,palace_ruins,Cragg defeated (vs peaceful resolution),5,5,genie_quality,Affects Genie disposition
+alliance_fragility_seen,boolean,white_sands,Party overheard arguments night before final battle,5,5;8,epilogue_variants,New
+freelands_entered,boolean,freelands,Party in Freelands,6,6,korval_meet,New
+korval_recruited,boolean,shattered_spire,Korval Dust joined party,6,6;7;8,spire_path,New
+sela_recruited,boolean,shattered_spire,Sela joined party,6,6;7;8,sela_arc,New
+spire_unlocked,boolean,shattered_spire,Psionic key opened deepest level,6,7,archivist_meet,New
+archivist_met,boolean,shattered_spire,The Archivist accessed,7,7;8,knowledge_choice,New
+voice_named,boolean,shattered_spire,The Voice's true name revealed,7,7;8,sorcerer_kings_revelation,New
+sela_succeeded,boolean,shattered_spire,Sela's defiler-to-preserver conversion succeeded,8,8,slow_method_available,New
+endgame_choice_fast,boolean,global,Used defiling fast method to stop Dragon,8,8,epilogue_dark,New
+endgame_choice_slow,boolean,global,Used slow method requires Sela success,8,8,epilogue_green,New
+pirdan_killed,boolean,shattered_spire,Elder Pirdan defeated,7,7;8,alliance_path,New

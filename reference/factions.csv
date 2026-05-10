@@ -1,0 +1,15 @@
+id,name,description,starting_reputation,allies,enemies,quest_chains,layer,source_page,notes
+drajian,Drajian Templars,Tectuktitlay's enforcers and government,-50,evil,free_slaves;veiled_alliance;free_villages,enforcement;tax;execution,O,C-23,
+free_slaves,Free Slaves,Escaped gladiators and slaves,+50,veiled_alliance;free_villages,drajian,escape;rebellion,O,C-17,
+veiled_alliance,Veiled Alliance,Underground preserver resistance,0,free_slaves;preservers,drajian;defilers,recruit_semyon;information,O,C-89,Sage Hermit looks for them
+free_villages,Free Villages,Teaquetzl Cedrilte Gedron,0,free_slaves;veiled_alliance,drajian;wyrmias,build_alliance;final_battle,O,C-39,
+elven_caravan,Elven Caravan,Trader collective,0,free_villages,wyvern_riders;magera;tobrian,stop_raids;trade,O,C-99,
+ssurran,Ssurran Tribes,Reptilian nomads,-25,,,trade_or_raid,O,C-105,
+korbnor_dead,Korbnor Dead,Ghosts of buried city,0,,psurlons,cragg_arc,O,C-79,
+tari,Tari (rat-people),Sewer dwellers split into low and high warrens,0,,churrr,rescue_chiefs_daughter,O,C-23,
+high_warrens,High Warrens (Tari),Loyal Tari under Chief,+10,tari,low_warrens;mikquetzl,rescue_daughter,O,C-23,
+low_warrens,Low Warrens (Tari),Churrr's followers,-10,mikquetzl,high_warrens,intimidate;deal,O,C-23,
+mindhome,Undermountain Folk (Mindhome),Telepathically linked humanoids,0,,,protect_mindhome,O,C-51,Harmless unless attacked
+korval_faction,Korval's Followers,Sela and others at the Spire,0,free_slaves;preservers,sorcerer_kings;defilers,spire_arc,N,NEW,Chapter 6+
+veiled_alliance_defiler,Veiled Alliance — Defiler Faction,Pirdan's faction. Wants to use defiling to stop the Dragon.,-25,,korval_faction,oppose_in_chapter_8,N,NEW,Chapter 7-8
+pre_cataclysm,Pre-Cataclysm Civilization,The civilization before the Sorcerer-Kings. Voice and Archivist.,0,korval_faction,sorcerer_kings,reveal_truth,N,NEW,Chapter 7

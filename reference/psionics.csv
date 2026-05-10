@@ -1,0 +1,35 @@
+id,name,discipline,type,attribute,initial_cost,maintenance_cost,duration,description,combat_only,source_page,notes
+detonate,Detonate,psychokinesis,science,CON,18,,instant,Explode latent energy in objects for 1-10 dmg in 10ft radius. May disintegrate items.,no,M-80,CON-3
+disintegrate_psi,Disintegrate,psychokinesis,science,WIS,40,,instant,Reduces creature to ash on failed save vs death magic.,no,M-80,WIS-4
+project_force,Project Force,psychokinesis,science,CON,10,,instant,Psychokinetic punch at 200 yards. 1-6 dmg + target's AC.,no,M-80,CON-2
+ballistic_attack,Ballistic Attack,psychokinesis,devotion,CON,5,,instant,Throw small object at deadly speed. 1-6 dmg.,no,M-80,CON-2
+control_body,Control Body,psychokinesis,devotion,CON,8,8,maintained,Control another's body. -6 to attack rolls.,yes,M-80,CON-2
+inertial_barrier,Inertial Barrier,psychokinesis,devotion,CON,7,5,maintained,Halves damage from breath weapons missiles gas acid ice storms.,no,M-80,CON-3
+animal_affinity,Animal Affinity,psychometabolism,science,CON,15,4,maintained,Grow claws 1-10 dmg.,no,M-81,CON-4
+energy_containment,Energy Containment,psychometabolism,science,CON,10,,combat,No effect from electricity cold fire heat sound energy attacks.,no,M-81,CON-2
+life_draining,Life Draining,psychometabolism,science,CON,11,,1_hour,Drain up to 6 HP from another. Added temporarily.,no,M-81,CON-3
+absorb_disease,Absorb Disease,psychometabolism,devotion,CON,12,,instant,Transfer disease to self then cure it. Cannot absorb curses.,no,M-81,CON-3
+adrenalin_control,Adrenalin Control,psychometabolism,devotion,CON,8,4,maintained,+1 to +6 STR temporarily.,no,M-81,CON-3
+biofeedback,Biofeedback,psychometabolism,devotion,CON,6,3,maintained,Reduce damage by 2. AC +1.,no,M-81,CON-2
+body_weaponry,Body Weaponry,psychometabolism,devotion,CON,9,4,maintained,Use one arm as a weapon (wood or steel).,no,M-81,CON-3
+cell_adjustment,Cell Adjustment,psychometabolism,devotion,CON,5,,instant,Heal wounds and cure diseases. Cannot remove curses.,no,M-81,CON-3
+displacement,Displacement,psychometabolism,devotion,CON,6,3,maintained,Project image 3 feet away. AC +2.,no,M-81,CON-3
+enhanced_strength,Enhanced Strength,psychometabolism,devotion,WIS,varies,varies,maintained,Raise STR to 24. 2x PSP per point added.,no,M-81,WIS-3
+flesh_armor,Flesh Armor,psychometabolism,devotion,CON,8,4,maintained,Temporary armor based on level. No penalties.,no,M-81,CON-3
+graft_weapon,Graft Weapon,psychometabolism,devotion,CON,10,1,maintained,Weapon becomes part of body. +1 to hit. Cannot switch.,no,M-81,CON-5
+lend_health,Lend Health,psychometabolism,devotion,CON,4,,instant,Transfer HP to another. Cannot exceed target's max or drop self below minimum.,no,M-81,CON-1
+share_strength,Share Strength,psychometabolism,devotion,CON,6,2,maintained,Transfer STR to another (2 lost for 1 received).,no,M-81,CON-4
+domination_psi,Domination,telepathy,science,WIS,varies,,maintained,Control another's mind. PSP cost depends on subject.,yes,M-84,WIS-4
+mass_domination,Mass Domination,telepathy,science,WIS,varies,,maintained,Up to 5 creatures at once.,yes,M-84,WIS-6
+psychic_crush,Psychic Crush,telepathy,science,WIS,7,,instant,Up to 6 HP damage on psionicist's mind.,no,M-84,WIS-4
+superior_invisibility,Superior Invisibility,telepathy,science,INT,varies,5,maintained,Cannot be seen heard or smelled. Dispelled if user attacks.,yes,M-84,INT-5
+tower_of_iron_will,Tower of Iron Will,telepathy,science,WIS,6,,combat,Defense vs psionic contact. Can initiate one other power while warded.,no,M-84,WIS-2
+ego_whip,Ego Whip,telepathy,devotion,WIS,4,,instant,Stun target 1-4 rounds.,no,M-84,WIS-3
+id_insinuation,Id Insinuation,telepathy,devotion,WIS,5,,instant,Paralyze target 1-4 rounds.,yes,M-84,WIS-4
+intellect_fortress,Intellect Fortress,telepathy,devotion,WIS,4,,combat,Telepathic defense for all minds within 3 yards.,no,M-84,WIS-3
+mental_barrier,Mental Barrier,telepathy,devotion,WIS,3,,combat,Personal defense only. Can use other powers while protected.,no,M-84,WIS-2
+mind_bar,Mind Bar,telepathy,devotion,INT,6,4,maintained,75% magic resistance to mind-affecting spells.,no,M-84,INT-2
+mind_blank,Mind Blank,telepathy,devotion,WIS,0,0,always,Always on. Defense vs psionic attacks. Free.,no,M-84,WIS-7 — auto-active
+psionic_blast,Psionic Blast,telepathy,devotion,WIS,10,,instant,Tricks opponent into believing it lost 80% HP. At 20% HP falls unconscious.,no,M-84,WIS-5
+synaptic_static,Synaptic Static,telepathy,devotion,INT,15,10,maintained,Prevents ALL psionics in area (including user).,no,M-84,INT-4
+thought_shield,Thought Shield,telepathy,devotion,WIS,1,,combat,Protect mind from psionic attacks. Can initiate another power simultaneously.,no,M-84,WIS-3

@@ -1,0 +1,76 @@
+id,name,location_id,role,faction,disposition,layer,description,gives_item,gives_quest,killed_flag,recruited_flag,source_page,notes
+announcer,Announcer,arena,host,drajian,hostile,O,Controls fights heckles gladiators,,,,,C-15,
+semyon,Semyon,arena,prisoner,veiled_alliance,allied,O,Former gladiator staked in arena. Joins Veiled Alliance after rescue. Joins party for one Arena fight.,,rescue_semyon,,semyon_recruited,C-15,Needs water from pens
+venyz,Venyz,arena,prisoner,none,neutral,O,Second staked slave beyond help.,,,,,,C-15,
+scar,Scar,slave_pens,gladiator_leader,free_slaves,allied,O,King of the Pens. Captured to please Tectuktitlay. Cautious escape plan via Arena west exit after 5 visits.,,scar_escape,scar_killed,scar_allied,C-17,
+merzol,Merzol,slave_pens,gladiator_leader,free_slaves,allied,O,Would-be King of the Pens. Less organized. Escape after 3 Arena visits. Riskier.,,merzol_escape,merzol_killed,merzol_allied,C-17,
+trustee,Trustee,slave_pens,gladiator,free_slaves,neutral,O,Old gladiator. Former wilderness guide. Lets party see Dinos.,,,trustee_killed,,C-17,Pickpocket key to Dinos room
+dinos,Dinos,slave_pens,cook,free_slaves,allied,O,Slave cook. Imprisoned for accidentally feeding bad food to a templar. Heals Gilal.,,heal_gilal,dinos_killed,,C-17,
+mirlon,Mirlon,slave_pens,gladiator,drajian,treacherous,O,Vain gladiator bribed by Templar Pehtucl to betray escapees.,,,mirlon_killed,,C-17,Trap if trusted
+gilal,Gilal,slave_pens,gladiator,free_slaves,allied,O,Memory-damaged gladiator. Knows escape info. Healable by Dinos.,,gilal_memory,gilal_killed,,C-17,
+templar_pehtucl,Templar Pehtucl,slave_pens,templar,drajian,hostile,O,In charge of Slave Pens. Corrupt. Carries Bloodwrath sword +1.,bloodwrath_sword,,pehtucl_killed,,C-17,Fake escape ambush
+kurzak,Kurzak,slave_pens,guard,drajian,hostile,O,Main guard. Takes bribes gives nothing. Lets Mirlon through.,,,kurzak_killed,,C-17,
+bonecrusher,Bonecrusher,slave_pens,monster_trainer,drajian,hostile,O,Half-giant monster trainer. Retrieves laggard slaves.,,,bonecrusher_killed,,C-17,
+churrr,Churrr,sewers,thug_leader,low_warrens,hostile,O,Beady-eyed controller of low warrens. Kidnapped chief's daughter for Mikquetzl.,,,churrr_killed,,C-23,Trades leather armor
+high_warren_chief,High Warren Chief,sewers,leader,high_warrens,allied,O,Tari leader. Has Helm of Contemplation. Devastated by kidnapped daughter.,helm_of_contemplation,rescue_chiefs_daughter,,,C-23,
+chiefs_daughter,High Warren Chief's Daughter,sewers,prisoner,high_warrens,allied,O,Kidnapped plucky. Rushes into battle even when weakened.,,,daughter_killed,daughter_rescued,C-23,
+skull_guardians,Skull Guardians,sewers,guardians,tari,neutral,O,Tari transformed by Dagolar. Protect the Elders. Can give bone crank.,bone_crank,,,,,C-23,
+elders,Elders,sewers,council,tari,neutral,O,Animated skulls of past tari leaders. Haughty. Grant Staff of Parting.,staff_of_parting,,,,,C-23,
+mikquetzl,Mikquetzl,sewers,disgraced_templar,drajian,hostile,O,Disgraced templar. Insane. Rules tari worshippers. Has Chameleon Gloves.,chameleon_gloves,,mikquetzl_killed,,C-23,
+dagolar,Dagolar,dagolar_tunnels,psionicist,evil,hostile,O,20th-level human psionicist. Conducts experiments. Creator of Dagolar slimes.,,,dagolar_killed,,C-29,Disguises as Jake or Mow
+keldar,Keldar,dagolar_tunnels,servant,evil,hostile,O,Dagolar's warped servant. Keeps book of victims. Teleports unless killed in one shot.,book_of_names,,keldar_killed,,C-29,
+goburnix,Goburnix,dagolar_tunnels,zombie,neutral,allied,O,Dagolar's brother turned zombie. Follows party if freed. Can expose Jake or Mow.,,,goburnix_killed,goburnix_freed,C-29,
+old_one_eye,Old One-eye,fields,wanderer,none,neutral,O,NPC in fields region.,,,,,C-33,
+egrus,Egrus,white_sands,wanderer,none,neutral,O,Stays near camp unless party reads scroll on nearby body.,,,,,C-35,
+chahl,Chahl,teaquetzl_village,village_leader,free_villages,allied,O,Leader of Teaquetzl. Adopted daughter Katura.,,seek_alliance,,,C-39,
+katura,Katura,teaquetzl_village,civilian,free_villages,allied,O,Chahl's adopted daughter. Fascinated by magical items. Visits Elven Caravan.,,,,,C-39,Also at Elven Caravan
+visionary,The Visionary,teaquetzl_village,prophet,free_villages,allied,O,Halfling found half-dead in desert. Prophecy of slave villages' destruction drives alliance.,,,,,C-39,
+father_garyn,Father Garyn,teaquetzl_village,cleric,free_villages,allied,O,Cleric of water. Tends villagers' spiritual needs. Injured escaping slavery.,,deliver_pith,,,C-39,
+village_council,Village Council,teaquetzl_village,council,free_villages,allied,O,Provides news on Drajian army. Asks party to gather allies.,,,,,C-39,
+toonuu,Toonuu,nazca_lines,merchant,neutral,neutral,O,Sells salt. Salt needed for mastyrial Alita from Demothi.,salt,,,,,C-45,
+krikor,Krikor,cedrilte_village,villager,free_villages,allied,O,Cedrilte villager.,,,,,C-47,
+chaya,Chaya,cedrilte_village,villager,free_villages,allied,O,Speak first before being led to key location.,,,,,C-47,
+kasha,Kasha,salt_oasis,escaped_slave,free_slaves,allied,O,Escaped slave. Gives warning.,,,,,C-65,
+uzoma,Uzoma,salt_oasis,patrol_leader,drajian,hostile,O,Drajian guard patrol leader. Mistakes party for guards.,,,uzoma_killed,,C-65,
+wyrmias,Wyrmias,gedron_village,defiler,evil,hostile,O,Defiler controlling Gedron. Man of his word — duels if given both statue pieces.,els_drinker;psionic_bracelet,,wyrmias_killed,wyrmias_resolved,C-69,Hidden safe under rug
+linara,Linara,gedron_village,preserver,free_villages,allied,O,6th-level preserver unaffected by Wyrmias. Waiting to hear from her sister Jasmine.,,,linara_killed,,C-69,
+gedron_mayor,Gedron Mayor,gedron_village,village_leader,free_villages,neutral,O,Wyrmias' puppet. Agrees to alliance after village freed.,,,,,C-69,
+melkor,Melkor,gedron_village,merchant,neutral,neutral,O,Travelling merchant stuck in village.,,,,,C-69,
+jasmine,Jasmine,silt_sea_summoning,preserver,neutral,neutral,O,9th-level human preserver. Came to retrieve statue piece for Wyrmias.,jasmines_spellbook;statue_piece_b,,jasmine_killed,,C-75,
+arant,Arant,silt_sea_summoning,slaver,evil,hostile,O,Holds captured gladiators from Gedron and Cedrilte. Has second statue piece.,statue_piece_b,,arant_killed,,C-75,
+cragg,Cragg,palace_ruins,greater_shadow,korbnor_dead,neutral,O,Former advisor turned greater shadow. Killed the king. Has Genie bottle.,genie_bottle,return_body,cragg_killed,,C-79,Buried thousands of years
+king_dwyer,King Dwyer,palace_ruins,spirit,korbnor_dead,hostile,O,Spirit of former king. On the dais. Stepping on dais angers him.,,,,,C-79,
+genie,The Genie,palace_ruins,genie,neutral,allied,O,Grants three wishes. Critical late-game asset.,quicksilver_glove,three_wishes,,,C-79,Provides Genie's Warning new content
+psurlons,Psurlons,palace_ruins,monster,evil,hostile,O,Guard the ruins. 30% magic resistant. Require +1 weapons.,,,,,C-79,
+hermit_defiler,Hermit Defiler,lava_rift,defiler,evil,hostile,O,Found Lava Rift began summoning fire elementals.,,,hermit_killed,,C-83,
+rift_ranger,Rift Ranger,red_sands_plateau,ranger,neutral,allied,O,Only survivor of band that drove off the lava hermit.,,,,,C-89,
+notaku,Notaku,red_sands_plateau,merchant,neutral,allied,O,Elven merchant. Magical herbs and spell components. Sends quests.,derths_wand;els_shield,deliver_pith;collect_terror_bloom;mastyrial_stinger,notaku_killed,,C-89,
+sage_hermit,Sage/Wise Hermit,red_sands_plateau,sage,veiled_alliance,allied,O,Wanders looking for Veiled Alliance. Identifies magic items. Gives wand and obelisk gem.,wand_of_metal_detection;obelisk_gem,,,,,C-89,
+demothi,Demothi,red_sands_plateau,trainer,neutral,neutral,O,Trains mastyrials. Selling Alita requires bag of salt from Toonuu.,mastyrial_alita,,,,,C-89,
+sand_druid,Sand Druid,sand_oasis,druid,neutral,neutral,O,Watches over oasis. Ensures not defiled. Gives butterfly wings.,butterfly_wings,,,,,C-93,
+slaver_templar,Slaver Templar,elven_slavers,templar,drajian,hostile,O,Has whistle to summon troops.,whistle,,slaver_templar_killed,,C-95,
+messenger,The Messenger,messenger_route,messenger,drajian,hostile,O,Carries notes between templar and noble. Can summon up to 4 blue slaad.,,,messenger_killed,,C-97,
+hototo,Hototo's Band,messenger_route,slavers,evil,hostile,O,Slave transfer band. Can be manipulated with deception.,,,,,C-97,
+dagger,Dagger's Band,messenger_route,slavers,evil,hostile,O,Slave transfer band. Can be manipulated with deception.,,,,,C-97,
+nirveli,Nirveli,messenger_route,noble_slave,neutral,allied,O,Noble slave gives thanks when freed.,,,nirveli_killed,nirveli_freed,C-97,
+drisana,Drisana,elven_caravan,caravan_master,elven_caravan,allied,O,Caravan master. Wants raids stopped. Acts as judge in Tobrian dispute.,,stop_raids,drisana_killed,,C-99,
+larissa,Larissa,elven_caravan,seer,elven_caravan,neutral,O,Seer of minor abilities. Tells fortunes for ceramic pieces.,,,,,C-99,
+kel,Kel,elven_caravan,merchant,elven_caravan,neutral,O,Mage merchant sells goods many non-magical.,arrows_1;soulcrusher;talisman_of_venom;obelisk_gem,,,,,C-99,
+jark,Jark,elven_caravan,merchant,elven_caravan,allied,O,Honest merchant. Armor weapons rumors.,,,,,C-99,
+tobrian,Tobrian,elven_caravan,merchant,evil,hostile,O,Wine merchant and ex-slave merchant. Tries to poison party. Talisman of venom prevents.,,,tobrian_killed,,C-99,
+tidzio,Tidzio,elven_caravan,wanderer,neutral,allied,O,Halfling wanderer. Information about Gemfields.,,,,,C-99,
+ylakez,Ylakez,elven_caravan,refugee,free_slaves,allied,O,Refugee whose village was burned. Information about Tectuktitlay for money.,,,,,C-99,
+ketzia,Ketzia,elven_caravan,refugee,free_slaves,allied,O,Refugee whose village was burned. Information about templars for money.,,,,,C-99,
+hesutu,Hesutu,elven_caravan,dwarf,neutral,neutral,O,Dwarf who lost his focus when Drajian troops destroyed his tribe. Can be given new purpose.,,find_focus,,,C-99,
+ssurran_shaman,Ssurran Shaman,ssurran_ruins,shaman,ssurran,hostile,O,3rd-level cleric.,,,ssurran_shaman_killed,,C-105,
+balkazar,Balkazar,wyrm_school,wyrm_keeper,wyrm,neutral,O,Receives terror extract from Notaku.,,terror_extract,balkazar_killed,,C-111,
+kalinin,Kalinin,wagon_train,warrior_leader,free_villages,allied,O,Warrior leader of prisoners. Gives sword Hornblade. Allies with Teaquetzl if rescued.,hornblade,rescue_kalinin,,kalinin_allied,C-87,
+kraxis,Kraxis,white_sands,commander,drajian,hostile,O,Drajian commander. Final battle antagonist.,,,kraxis_killed,,C-35,Final Battle 3
+gareth,Gareth (Selucus),slave_pens,companion,free_slaves,allied,O,Half-giant gladiator. Tectuktitlay's favorite. Broke a templar's neck. Joins party.,,,,gareth_recruited,M-3,Companion
+saria,Saria,slave_pens,companion,free_slaves,allied,O,Half-elf thief/preserver. Killed templar at auction. Joins party.,,,,saria_recruited,M-3,Companion
+tarim,Tarim,slave_pens,companion,free_slaves,allied,O,Thri-kreen female hunter. Joins party.,,,,tarim_recruited,M-3,Companion
+korval_dust,Korval Dust,shattered_spire,ancient_preserver,korval_faction,ambiguous,N,Ancient preserver. Former advisor to a Sorcerer-King. Arranged the party's circumstances partially.,,reach_archivist,,korval_recruited,NEW,Chapter 6 — Watcher in Crowd
+sela,Sela,shattered_spire,defiler_to_preserver,korval_faction,allied,N,Former defiler attempting impossible conversion to preserver.,,sela_conversion,,sela_recruited,NEW,Chapter 6-8 arc
+the_voice,The Voice,shattered_spire,recording,pre_cataclysm,neutral,N,Psionic recording. Last transmission of pre-cataclysm civilization.,,,,,NEW,Chapter 7
+the_archivist,The Archivist,shattered_spire,personality,pre_cataclysm,ambiguous,N,Last personality of Spire's builders preserved as psionic data. Has opinions.,,grant_knowledge,,,NEW,Chapter 7
+elder_pirdan,Elder Pirdan,shattered_spire,alliance_leader,veiled_alliance_defiler,hostile,N,Alliance defiler faction leader. Genuinely grieving for Athas. Wrong about the method.,,,pirdan_killed,,NEW,Chapter 7-8
