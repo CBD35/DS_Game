@@ -1,0 +1,37 @@
+id,name,ac,hd,thaco,attacks,damage,special,immunities,resistance,morale,xp,location_ids,source_page,notes
+daggoran,Daggoran,7,4,17,1,2-12,Psionics: Detonate Ballistic Attack Control Body Inertial Barrier; tracks psionic signatures; leap up to movement,,,,fearless,,arena;fields,M-29,Pack 2-8. Drajian guard tracker
+dagolar_slime,Dagolar Slime,2,7,13,1,2-12 acid,Sticky web (save vs breath); corrosive acid destroys armor; eats brains,crushing;thrusting,,,,dagolar_tunnels,M-29,Solitary
+dark_spider,Dark Spider,2,6,15,3,1-10/1-10/1-6,Type F poison bite; some cast defiler spells to 6th; queens are psionicist/defilers,,,,,,sewers,M-29,2-20 with warrior/mage/queen types
+dune_reaper,Dune Reaper,2,8,13,3,3-18/3-18/2-12,+7 STR; pack hunters; 10% MR,,10%_magic,fearless,,arena;red_sands_plateau,M-29,5-30
+fire_eel,Fire Eel,4,6,15,1,3-24,Fire breath 6d6 in 10ft; burrows in sand,,,,,,arena;elven_caravan,M-29,1-3
+greater_shadow,Greater Shadow,4,6,15,2,2-12+1_str_drain,Once humanoids exposed to Negative Material Plane; STR loss until rest; turnable,sleep;charm;hold;cold,,,,,palace_ruins,M-29,Need +1 weapons
+magera,Magera,6,6,15,2,1-8 fist (+8),10% psionic; some defiler magic to 5th; tribal,,,,,,wyrm_belly;wagon_train,M-29,5-30
+mastyrial,Mastyrial,0,12,9,4,1-10/1-10/2-12/1-6+poison,Poison stinger 30 dmg (15 saved); regen 3HP/round; lies buried,blunt_weapons,,fearless,,red_sands_plateau,M-29,
+mountain_stalker,Mountain Stalker,4,10,11,4,3-18+7,Skilled climbers; populate mountains west of Draj,,,,,,slave_pens,M-29,Pack 5-10
+psurlon,Psurlon,0,10,11,3,3-12/3-12/2-16,45% MR; 200+ PSPs; 4 disciplines; 5000-year lifespan; trapped in Astral,sleep;charm;hold,45%_magic,,,,palace_ruins,M-29,Need +1 weapons
+sand_howler,Sand Howler,5,4+2,17,3,1-3/1-3/1-6,Paralyzing gaze,,,,,,arena;red_sands_plateau,M-29,Pack 2-16. Nearly extinct
+screamer_beetle,Screamer Beetle,2,3,17,1,1-8,Psionic Blast from abdomen,,,,,,arena,M-29,Small packs
+ssurran,Ssurran,4,6,15,1,1-8 (+4),Skin can be worked as scale armor (AC 6 fire resistant); shamans up to 6th cleric,,half_dmg_fire,,,silt_sea_ssurrans;ssurran_ruins,M-29,Nomadic reptilian tribe
+styr,Styr,0,14,7,4,2-20/2-20/2-20/2-20+fire_breath,Fire breath 3-18; summoned earth elemental plane creature,,30%_magic,fearless,,palace_ruins,M-29,Need +1 weapons. Guards treasure
+tanarri_greater_babau,Tanar'ri Greater (Babau),,,,,,Gaze attack ray of enfeeblement; corrodes weapons; deadly poison,,50%_magic,,,palace_ruins,M-29,Need +1 weapons
+tanarri_true_vrock,Tanar'ri True (Vrock),,,,5,claws_beak,Vulture-human hybrids,,70%_magic,,,palace_ruins,M-29,Need +2 weapons
+thri_kreen,Thri-kreen,,,,4,claws+paralyzing_bite,Victims take double damage after paralysis; agile dodge missiles,,,,,arena;red_sands_plateau,M-29,Better attacked with magic
+tyrian_slime,Tyrian Slime,2,5,15,1,2-12 acid,Sticky web (save vs breath); corrosive acid; oozes through cracks,crushing;thrusting;fire;acid,,,,sewers,M-29,
+undermountain_folk,Undermountain Folk (Mindhome),6,2+1,19,0,0,Psionic defenses; telepathically linked; catatonic if separated,enchantment;charm,,,,undermountain,M-29,Harmless unless attacked
+zombie,Zombie,,,,,,Mindless walks straight; turnable,,,,,,palace_ruins;sewers,M-29,
+drajian_guard,Drajian Guard,5,2,19,1,1-8,Standard city guard,,,,,fields;hot_springs,C-23,Common enemy
+drajian_soldier,Drajian Soldier,4,4,17,1,1-10,Standard military,,,,,white_sands,C-35,Final battle waves
+drajian_elite,Drajian Elite,2,7,13,2,1-10/1-10,Elite military force,,,,,white_sands,C-35,With Kraxis
+silt_runner,Silt Runner,7,1,19,1,1-4,Quick scavenger,,,,,arena,M-29,
+half_giant,Half-Giant,4,8,13,1,2-16,STR 19+; 1600 lbs,,,,,arena;slave_pens,M-19,Brawler
+templar_pehtucl,Templar Pehtucl,5,5,15,1,1-8+1,Carries Bloodwrath +1; cleric spells,,,,,slave_pens,C-17,
+mikquetzl_npc,Mikquetzl,4,7,13,1,1-8,Disgraced templar; cleric spells; chameleon gloves,,,,,sewers,C-23,
+dagolar_npc,Dagolar,8,10,11,1,1-6,20th-level human psionicist; massive PSPs,,,,,dagolar_tunnels,C-29,Final boss of underground
+wyrmias_npc,Wyrmias,3,9,12,1,1-6+spell,Defiler 9th level; defiler spells,,,,,gedron_village,C-69,Honor duel
+jasmine_npc,Jasmine,4,9,12,1,1-4,9th-level preserver; preserver spells,,,,,silt_sea_summoning,C-75,
+kraxis_npc,Kraxis,2,10,11,2,1-10/1-10,Elite Drajian commander,,,,,white_sands,C-35,Final battle 3
+cragg_npc,Cragg,4,8,13,2,2-12+drain,Greater shadow former advisor; can be peaceful,sleep;charm;hold;cold,,,,palace_ruins,C-79,Need +1 weapons
+genie_npc,The Genie,-2,18,3,3,multi,Grants 3 wishes; teleport; resurrect; summon shadow army,,,,,palace_ruins,C-79,Allied if Cragg unharmed
+echo_construct,Echo Construct,3,5,15,2,1-8/1-8,Pre-cataclysm psionic guardian,,,,,shattered_spire,NEW,Chapter 6
+the_archivist_npc,The Archivist,0,15,7,0,0,Psionic data; not alive; opinions,physical,,,,shattered_spire,NEW,Chapter 7
+elder_pirdan_npc,Elder Pirdan,2,12,9,1,1-6+spell,Veiled Alliance defiler; defiler spells,,,,,shattered_spire,NEW,Chapter 7-8

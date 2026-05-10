@@ -1,0 +1,35 @@
+id,location_id,monster_id,count,trigger,combat_type,reward_xp,reward_items,reward_flag,source_page,notes
+arena_1,arena,silt_runner,3,first_visit,arena,,,arena_visits_1,C-15,
+arena_2,arena,sand_howler,4,visit_2,arena,,,arena_visits_2,C-15,
+arena_3,arena,half_giant,1,visit_3,arena,,,arena_visits_3,C-15,Merzol unlock
+arena_4,arena,thri_kreen,3,visit_4,arena,,,arena_visits_4,C-15,
+arena_5,arena,dune_reaper,2,visit_5,arena,,,arena_visits_5,C-15,Scar unlock
+arena_6,arena,fire_eel,1,large_monster,arena,,,arena_large_fight,C-15,Use safe corner location 1
+slave_pens_pehtucl_ambush,slave_pens,drajian_guard,4,trust_pehtucl,ambush,,bloodwrath_sword,pehtucl_killed,C-17,Trap if accept fake escape
+slave_pens_secret_room,slave_pens,mountain_stalker,1,adjacent_pen,encounter,,arrows_3;gem_secret_room;scale_armor,secret_room_unlocked,C-17,Push button on north wall after kill
+slave_pens_pickpocket,slave_pens,trustee,1,thief_steal,stealth,,key_dinos_room,trustee_pickpocketed,C-17,
+sewers_low_warren_thugs,sewers,low_warren_thug,4,enter_low_warrens,encounter,,,,C-23,
+sewers_high_warren_guards,sewers,high_warren_guard,3,enter_high_warrens,trust_check,,,,C-23,
+sewers_skull_temple,sewers,skull_guardian,3,enter_skull_temple,encounter,,bone_crank,skull_temple_cleared,C-23,
+sewers_mikquetzl_fight,sewers,mikquetzl;tari_fanatic,5,confront_mikquetzl,boss,,chameleon_gloves,mikquetzl_killed,C-23,
+sewers_chest_room,sewers,tyrian_slime,2,location_20,encounter,,steel_sword_chest;gem_chest;mikquetzls_notes,sewers_chest_opened,C-23,
+dagolar_tunnels_keldar,dagolar_tunnels,keldar,1,encounter_keldar,boss,,book_of_names,keldar_killed,C-29,Kill in one shot to prevent teleport
+dagolar_tunnels_dagolar,dagolar_tunnels,dagolar,1,confront_dagolar,boss,,,dagolar_killed,C-29,
+white_sands_battle_1,white_sands,drajian_soldier,8,after_villages_allied,wave,,,final_battle_1,C-35,Final Battle 1
+white_sands_battle_2,white_sands,drajian_soldier,12,after_battle_1,wave,,,final_battle_2,C-35,Final Battle 2
+white_sands_battle_3,white_sands,kraxis;drajian_elite,6,after_battle_2,boss_wave,,,final_battle_3;kraxis_killed,C-35,Final Battle 3
+gedron_wyrmias_duel,gedron_village,wyrmias,1,both_pieces_given,boss,,els_drinker;psionic_bracelet,wyrmias_killed,C-69,Honor duel
+silt_sea_arant,silt_sea_summoning,arant;slavers,5,confront_arant,encounter,,statue_piece_b,arant_killed;gladiators_freed,C-75,Frees captured gladiators
+palace_ruins_psurlons,palace_ruins,psurlon,3,enter_ruins,encounter,,,,C-79,Need +1 weapons
+palace_ruins_cragg,palace_ruins,cragg,1,confront_cragg,boss,,genie_bottle,cragg_killed,C-79,Or peaceful resolution
+lava_rift_elementals,lava_rift,lesser_fire_elemental,4,enter_rift,encounter,,,,C-83,Need +1 weapons
+wagon_train_magera,wagon_train,magera,5,enter_train,encounter,,,,C-87,
+wagon_train_rescue,wagon_train,magera_warrior,3,save_prisoners,timed,,hornblade,kalinin_rescued,C-87,
+elven_caravan_tobrian_poison,elven_caravan,tobrian,1,drink_wine,save_check,,,,C-99,Talisman of venom prevents
+elven_caravan_raid,elven_caravan,wyvern_rider;fire_eel,4,visit_caravan,defense,,,raid_repelled,C-99,
+messenger_route_messenger,messenger_route,messenger;blue_slaad,5,intercept_messenger,encounter,,,messenger_killed,C-97,
+hot_springs_uzoma_patrol,hot_springs,drajian_guard,4,encounter_patrol,encounter,,,uzoma_killed,C-67,
+red_sands_wandering,red_sands_plateau,tohr_kreen;strine;sand_howler;dune_reaper;otyugh;rampager;lesser_earth_elemental,3,wandering,wandering,,,,C-89,
+spire_corridor,shattered_spire,echo_construct,3,enter_spire,encounter_new,,,spire_lvl_1_cleared,NEW,Chapter 6
+spire_archivist,shattered_spire,the_archivist,1,reach_deepest_level,dialogue,,knowledge_of_voice,archivist_met,NEW,Chapter 7
+spire_pirdan,shattered_spire,elder_pirdan;defiler_faction,5,confront_pirdan,boss,,,pirdan_killed,NEW,Chapter 7-8

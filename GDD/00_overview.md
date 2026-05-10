@@ -1,9 +1,13 @@
 # Dark Sun: Shattered Lands — Remake GDD
 ## 00: Overview & Vision
 
-**Version:** 0.2
+**Version:** 0.2 — **SUPERSEDED**
 **Last Updated:** 2026-04-20
 **Document Owner:** Design Lead
+
+> ⚠ **THIS FILE IS SUPERSEDED.** See `GDD/MASTER_PROJECT_FILE.md` (v1.0) for the current canonical GDD.
+> This v0.2 document and its siblings (`01_setting.md` through `11_technical.md`) contain a critical error: they place the game in **Urik under Hamanu**. The game is actually set in **Draj under Tectuktitlay**. The Master Project File has been corrected from the source PDFs (`ds_shatterland_manual_pdf.pdf` and `ds_shatterland_cluebook_pdf.PDF`, in Google Drive `Game Design/DS/`).
+> Until this v0.2 series is rewritten in Phase 1, treat it as historical reference only.
 
 ---
 
