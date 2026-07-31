@@ -4,6 +4,8 @@
 **Version:** 0.2
 **Last Updated:** 2026-04-20
 
+
+> ⚠️ **DRAFT — Pending rewrite.** This file contains errors (game is set in **Draj under Tectuktitlay**, not Urik/Hamanu). Content not verified against source PDFs. See `GDD/MASTER_PROJECT_FILE.md` for the authoritative reference.
 ---
 
 ## Table of Contents
